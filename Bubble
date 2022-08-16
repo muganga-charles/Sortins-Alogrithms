@@ -1,0 +1,12 @@
+def bubbleSort(list):
+    n = len(list)
+    for i in range(n-1):
+        for j in range((n-i)-1):
+            if list[j] > list[j+1]:
+                tmp = list[j]
+                list[j] = list[j+1]
+                list[j+1] = tmp
+
+list = [1,-2,30,2,4,5,6,72,-8,9,10]
+bubbleSort(list)
+print(list)
