@@ -1,0 +1,14 @@
+def selection_sort(list):
+    for i in range (0,len(list)-1):
+        mini = i
+        for j in range((i+1),len(list)):
+            if list[j] < list[mini]:
+                mini = j
+        if mini != i:
+            temp = list[i]
+            list[i] = list[mini]
+            list[mini] = temp
+
+list = [1,-2,30,2,4,5,6,72,-8,9,10]
+selection_sort(list)
+print(list)
