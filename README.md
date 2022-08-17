@@ -1,1 +1,1 @@
-# Sortins-Alogrithms
+# Sorting-Alogrithms
