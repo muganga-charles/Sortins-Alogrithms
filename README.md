@@ -1,2 +1,2 @@
 # Sorting-Alogrithms
-A number of algrithms are 
+A number of algorithms are 
